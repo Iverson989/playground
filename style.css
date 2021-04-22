@@ -1,9 +1,9 @@
 #grid-div {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   min-height: 39rem;
-  max-width: 624px;
+  max-width: 626px;
   border: thick double #000;
 }
 
@@ -12,10 +12,11 @@
 }
 
 .gridlet {
-  background-color: white;
+  background-color: grey;
   height: 95%;
   width: 95%;
   margin: 1%;
+  padding: 2px 0px 0px 2px;
 }
 
 .gridlet:hover {
