@@ -7,6 +7,10 @@
   border: thick double #000;
 }
 
+#grid-div:hover {
+  border-color: gray;
+}
+
 .gridlet {
   background-color: white;
   height: 95%;
@@ -16,7 +20,4 @@
 
 .gridlet:hover {
   background-color: black;
-  height: 95%;
-  width: 95%;
-  margin: 1%;
 }
