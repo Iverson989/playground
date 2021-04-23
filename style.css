@@ -1,9 +1,20 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 624px 1fr;
+  grid-template-rows: 1fr;
+}
+
+#color-choice {
+  height: 100px;
+  width: 100px;
+}
+
 #grid-div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  min-height: 39rem;
-  max-width: 626px;
+  height: 624px;
+  width: 626px;
   border: thick double #000;
 }
 
